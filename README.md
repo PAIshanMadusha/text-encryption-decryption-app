@@ -1,31 +1,32 @@
 # 🔐 Text Encryption & Decryption App
 
-A professional desktop application built with Python and CustomTkinter for secure text encryption and decryption. It features password-protected encryption, powered by the cryptography library, ensuring that only users with the master password can decrypt the data. The app includes a clean, modern GUI and supports saving and loading encrypted text files.
+A professional desktop application built with **Python** and **CustomTkinter** for secure text encryption and decryption. It features password-protected encryption, powered by the **cryptography library**, ensuring that only users with the master password can decrypt the data. The app includes a clean, modern GUI and supports saving and loading encrypted text files.
 
 ---
 
 ## ✨ Features:
 
-* 🔑 **Password-based encryption and decryption** ensuring authorized access only to those who know the master password.
-* 📋 **Copy output** easily to clipboard
-* 💾 **Save and load encrypted messages** from files with intuitive dialogs
-* 🧹 **Clear inputs and outputs** instantly
-* 🖥️ **Modern GUI** built with CustomTkinter, featuring dark mode and green accent theme
-* 🎯 **Centered fixed-size window** for consistent UX
+* 🔑 **Password-based encryption and decryption** only work with the correct master password.
+* 📋 **Copy output** easily to clipboard.
+* 💾 **Save and load encrypted messages** from files with intuitive dialogs.
+* 🧹 **Clear inputs and outputs** instantly.
+* 🖥️ **Modern GUI** built with CustomTkinter, featuring dark mode and green accent theme.
+* 🎯 **Centered fixed-size window** for consistent UX.
 
 ---
 
 ## 🧰 Tech Stack:
 The following tech stack is used in this project:
 
-| Purpose                        | Technology           |
-|--------------------------------|----------------------|
-| Programming Language           | Python 3.x           |
-| GUI Framework                  | CustomTkinter        |
-| Encryption/Decryption Library  | Cryptography         |
-| System Theme Detection         | Darkdetect           |
-| Clipboard Support              | Pyperclip            |
-| Build Tools                    | Cffi, pycparser      |
+
+| Purpose                       | Technology                                     |
+| ----------------------------- | ---------------------------------------------- |
+| Programming Language          | Python 3.x                                     |
+| GUI Framework                 | CustomTkinter (modern, customizable UI)        |
+| Encryption/Decryption Library | Cryptography (secure symmetric encryption)     |
+| System Theme Detection        | Darkdetect (auto dark/light mode)              |
+| Clipboard Support             | Pyperclip (copy/paste functionality)           |
+| Build Tools                   | Cffi, pycparser (C extensions for performance) |
 
 ---
 
@@ -52,6 +53,7 @@ text-encryption-decryption-app/
 ---
 
 ## ⚙️ How to Run the Project:
+Follow these steps to successfully run the project:
 
 #### 1. **Clone the repository:**
 
@@ -82,22 +84,22 @@ pip install -r requirements.txt
 python app.py
 ```
 
-* 🔐 Enter the **master password** (found in `config.py` as `MASTER_PASSWORD = "PAIshanMadusha"`): required for encryption and decryption.
-* ✍️ Input your **message** to encrypt or decrypt
-* 🔒 Click **Encrypt** or **Decrypt** to perform operations
-* 📋 Use **Copy Output** to copy results
-* 💾 Save or load encrypted text files using **Save to File** / **Load from File**
-* 🧹 Click **Clear** to reset fields
+* 🔐 Enter the **master password** (found in `config.py` as `MASTER_PASSWORD = "PAIshanMadusha"`).
+* ✍️ Input your **message** to encrypt or decrypt.
+* 🔒 Click **Encrypt** or **Decrypt** to perform operations.
+* 📋 Use **Copy Output** to copy results.
+* 💾 Save or load encrypted text files using **Save to File** / **Load from File**.
+* 🧹 Click **Clear** to reset fields.
 
 ---
 
 ## ⚙️ How It Works:
 
-* Uses your **master password** to generate a secure key for **symmetric encryption** via the `cryptography` library
-* Encrypts text input and displays the result instantly in the app
-* Decryption only works with the correct master password
-* Supports saving encrypted text to files and loading it back securely
-* All encryption and decryption are handled **locally** for maximum privacy
+* Uses your **master password** to generate a secure key for **symmetric encryption** via the `cryptography` library.
+* Encrypts text input and displays the result instantly in the app.
+* Decryption only works with the correct master password.
+* Supports saving encrypted text to files and loading it back securely.
+* All encryption and decryption are handled **locally** for maximum privacy.
 
 ## 📸 System Screenshots:
 
@@ -121,4 +123,4 @@ Feel free to explore my work and get in touch if you'd like to collaborate! 🚀
 ---
 
 ## 📝 License:  
-This project is licensed under the MIT License - See the [LICENSE](LICENSE) file for details.
+This project is licensed under the MIT License : See the [LICENSE](LICENSE) file for details.
